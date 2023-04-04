@@ -1,0 +1,10 @@
+01. Komputer alış-verişi proyekti giriş
+02. Giriş səhifəsinin hazırlanması
+03. Hesab yarat səhifəsinin hazırlanması
+04. İstifadəçi girişi addımı
+
+
+32. Sifarişlər cədvəlini sazlamaq
+33. Komputer qeydiyyatı zamanı şəkili göstərmək
+34. Sifarişdə komputer axtarışı
+35. Müştəri məlumatlarının saxlanması

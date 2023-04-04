@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript</title>
+<meta charset="utf-8">
+</head>
+<body>
+<input id="number-one"><br>
+<input id="number-two"><br>
+<button onclick="sumNumbers()">Toplamaq</button>
+<hr>
+<h1 id="result"></h1>
+<script>
+function sumNumbers(){
+var numberOne=document.getElementById('number-one').value;
+var numberTwo=document.getElementById('number-two').value;
+var sum=parseInt(numberOne)+parseInt(numberTwo);
+document.getElementById('result').innerHTML=sum;
+
+}
+</script>
+</body>
+</html>

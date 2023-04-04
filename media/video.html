@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>video</title>
+<meta charset="utf-8">
+</head>
+<body>
+<button onclick="startVideo()">Başlat</button>
+<button onclick="stopVideo()">Dayandır</button>
+<button onclick="smallSize()">Kiçik</button>
+<button onclick="normalSize()">Normal</button>
+<button onclick="bigSize()">Böyük</button>
+<hr>
+
+<video id="my-video" width="680"  >
+<source src="info.mp4" type="video/mp4">
+Sizin web browser proqramınız video elementini dəstəkləmir!
+</video>
+
+<script>
+var myVideo=document.getElementById('my-video');
+function startVideo(){
+myVideo.play();
+}
+function stopVideo(){
+myVideo.pause();
+}
+function smallSize(){
+myVideo.width=340;
+}
+function normalSize(){
+myVideo.width=680;
+}
+function bigSize(){
+myVideo.width=1020;
+}
+</script>
+</body>
+</html>
+
